@@ -1,0 +1,156 @@
+﻿
+TextMMO
+
+A round based, multiplayer online Textadventure with several different classes, items to find, quests to complete and monsters to slay.
+
+---------------------------------------------------------------------------------------------------------------
+Classes:
+
+Warrior 
+	- Melee
+	- Can wear Shields
+	- High HP
+	- Heavy Armor
+Rogue
+	- Melee (Daggers/Swords)
+	- Ranged (Bow/Crossbow)
+	- Low to Moderate HP
+	- Light Armor
+Cleric
+	- Ranged (Wand)
+	- Can wear Shields
+	- Healer
+	- Low HP
+	- Cloth Armor
+Wizard
+	- Ranged (Staff/Wand)
+	- Low HP
+	- Cloth Armor
+
+---------------------------------------------------------------------------------------------------------------
+Attributes:
+
+	- Endurance
+		- raises XP
+	- Stamina
+		- raises possible equipmentload (can wear more/heavier stuff)
+	- Strength
+		- raises physical attack
+		- raises physical defense
+	- Intelligence
+		- raises magical attack
+		- raises magical defense
+	- Speed (?)
+		- higher speed stat means you can act before others in the current round
+	- Luck
+		- increases the chance of critical hits (physical and magical)
+		- increases the chance of drops from enemies
+
+---------------------------------------------------------------------------------------------------------------
+Abilities:
+
+Every character has a set of 3 abilities to equip at once. These are unlocked when the characters level up.
+
+---------------------------------------------------------------------------------------------------------------
+Items:
+
+armor:
+	- Head
+	- Chest
+	- Legs
+	- Shoes
+	- Necklace
+	- 2 Rings
+	- 1 Trinket
+
+weapons:
+	- 1h Sword
+	- 2h Sword
+	- Shield
+	- Wand
+	- Staff
+	- Bow/Crossbow
+
+consumables:
+	- potions
+	- keys (to open lootchests)
+
+---------------------------------------------------------------------------------------------------------------
+Round based gameplay:
+
+Out of combat:
+Every step you do means the enemies will also do one step. (Some move more or less than one step depending on their speed stat)
+In Multiplayer every player moves 1 step when every player inserted 1 command or set himself to idle. When idle, others dont have to wait for your command.
+The idle state stays active until combat or a conversation begins.
+
+In combat:
+Every player in the group can queue one skill/attack/command. Once everyone did so the execution round begins.
+(The player or monster with the highest speed stat begins, then the order is descending from highest speed to lowest.)
+Within the execution round the players will execute their commands one after each other.
+Once everyone has finished the next round starts, till no enemies or players remain.
+
+
+---------------------------------------------------------------------------------------------------------------
+Gamemodes:
+
+Singleplayer:
+	- Story
+		- Normal mode
+	- Ironman
+		- Permadeath
+
+---------------------------------------------------------------------------------------------------------------
+Multiplayer:
+
+---------------------------------------------------------------------------------------------------------------
+Multiplayer queue:
+Players can open lobbies and search for other players.
+This search puts up to 4 players into a group
+
+---------------------------------------------------------------------------------------------------------------
+World:
+
+The world and all the rooms are displayed in ascii.
+
+---------------------------------------------------------------------------------------------------------------
+Enemies:
+
+Skeletons
+Goblins
+Trolls
+Humans
+
+---------------------------------------------------------------------------------------------------------------
+Bosses:
+
+
+---------------------------------------------------------------------------------------------------------------
+Quests:
+
+Story quests:
+
+randomly generated quests:
+	(eq kill X mobs of type Y, find X items, slay enemy X)
+
+---------------------------------------------------------------------------------------------------------------
+Objectives:
+
+
+---------------------------------------------------------------------------------------------------------------
+NPCs:
+
+Traders:
+	- Armor trader
+	- Weapon trader
+	- Consumables trader
+
+---------------------------------------------------------------------------------------------------------------
+Loot system:
+
+- Drops
+	killed enemies can drop a random item from a certain lootpool, fitting for that enemy.
+- Random loot
+	at certain places in the world or in dungeons there can be items laying around. these are picked randomly from specific loot tables.
+- chests
+	chests are spread around in the world and in dungeons. these can be opened with a key
+
