@@ -31,7 +31,7 @@ Wizard
 Attributes:
 
 	- Endurance
-		- raises XP
+		- raises HP
 	- Stamina
 		- raises possible equipmentload (can wear more/heavier stuff)
 	- Strength
@@ -45,6 +45,7 @@ Attributes:
 	- Luck
 		- increases the chance of critical hits (physical and magical)
 		- increases the chance of drops from enemies
+		- raises chance of possible dialogue options
 
 ---------------------------------------------------------------------------------------------------------------
 Abilities:
@@ -127,10 +128,13 @@ Bosses:
 ---------------------------------------------------------------------------------------------------------------
 Quests:
 
-Story quests:
+story quests:
 
 randomly generated quests:
 	(eq kill X mobs of type Y, find X items, slay enemy X)
+	
+daily quests:
+
 
 ---------------------------------------------------------------------------------------------------------------
 Objectives:
@@ -154,3 +158,74 @@ Loot system:
 - chests
 	chests are spread around in the world and in dungeons. these can be opened with a key
 
+---------------------------------------------------------------------------------------------------------------
+World Generation:
+
+
+---------------------------------------------------------------------------------------------------------------
+Menus:
+
+Main menu:
+	- new game
+	- load game
+	(- options)
+	- exit
+
+new game menu:
+	- singleplayer
+	- multiplayer
+	- cancel
+	
+multiplayer menu:
+	- join game
+	- start lobby
+	- cancel
+	
+join game menu:
+	form with: roomcode & password
+	- join
+	- cancel
+	
+start lobby menu:
+	form with: roomcode
+	- start
+	- cancel
+	
+---------------------------------------------------------------------------------------------------------------
+Controls:
+
+
+---------------------------------------------------------------------------------------------------------------
+Window Size:
+
+
+---------------------------------------------------------------------------------------------------------------
+UI:
+
+The UI is divided in 3 big parts.
+The left side (about 80%) is the action screen with the map.
+The right side (about 20%) has an action overview and a minimap.
+The bottom (about 20%) is for chat interactions and actions that happened (combat log ect)
+
+---------------------------------------------------------------------------------------------------------------
+Map editor:
+
+import / loading via csv files
+ascii formatted (eq # is a wall)
+
+---------------------------------------------------------------------------------------------------------------
+Tiles:
+
+# = wall
+_ = door
+
+---------------------------------------------------------------------------------------------------------------
+savegames:
+
+Current position, items, levels ect within a csv file
+
+---------------------------------------------------------------------------------------------------------------
+dialogues:
+
+Some dialogues offer options.
+Some have a chance behind it (possibility raised by luck stat)
