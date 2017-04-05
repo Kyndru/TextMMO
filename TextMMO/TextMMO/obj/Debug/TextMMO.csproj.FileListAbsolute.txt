@@ -1,1 +1,2 @@
 c:\users\yoshi\documents\visual studio 2015\Projects\TextMMO\TextMMO\bin\Debug\TextMMO.exe.config
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO\bin\Debug\TextMMO.exe.config

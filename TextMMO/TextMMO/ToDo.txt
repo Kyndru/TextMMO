@@ -102,6 +102,18 @@ Singleplayer:
 
 ---------------------------------------------------------------------------------------------------------------
 Multiplayer:
+Synchronization:
+
+The synchronization is usually split into two part: incremental and absolute.
+
+Sometimes you must transmit everything, it is large, but if you pack it the right way you can do this once every few seconds. It is good to put everithing in place, correcting the faults of incremental refreshes.
+
+To achieve real-time experience, you must transmit some changes fast, but only the attributes that can change. For example if a rocket flies in a straight line, you needn't to update the position, each client can calculate it from the starting point. But when it hits, you may generate a message about it, so each client can explode the rocket in the right place. Minor glitches can be ignored.
+
+Of course you only update stuff, when they can influence the client! Something far off the screen is not worth it. Some values can be updated less frequently. For example the positions are important to be more or less precise, events (death, shot fired, explosion, etc) must be sent instantly, while not directly important values can have lower refresh periods, for example scoreboard, chat.
+
+The packing of data is also important. You can transmit approximately 1400 bytes (configuration dependent, this is the default) in one UDP package, usually there is a few bytes of header. So you can update 50-100 unit positions in one package easily.
+
 
 ---------------------------------------------------------------------------------------------------------------
 Multiplayer queue:
@@ -176,6 +188,11 @@ new game menu:
 	- multiplayer
 	- cancel
 	
+singleplayer menu:
+	select difficulty menu:
+	- normal
+	- ironman (permadeath)
+	
 multiplayer menu:
 	- join game
 	- start lobby
@@ -197,7 +214,7 @@ Controls:
 
 ---------------------------------------------------------------------------------------------------------------
 Window Size:
-
+800x500
 
 ---------------------------------------------------------------------------------------------------------------
 UI:
