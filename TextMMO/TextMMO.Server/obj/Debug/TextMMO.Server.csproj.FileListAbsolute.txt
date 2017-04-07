@@ -1,0 +1,1 @@
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\TextMMO.Server.exe.config

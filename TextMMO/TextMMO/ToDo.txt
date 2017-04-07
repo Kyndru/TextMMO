@@ -3,6 +3,12 @@ TextMMO
 
 A round based, multiplayer online Textadventure with several different classes, items to find, quests to complete and monsters to slay.
 
+The world is consistent and contains randomly generated dungeons.
+
+It runs on a server and clients can connect to it.
+
+The battles are real time and attacks and abilities have cooldowns and/or use energy.
+
 ---------------------------------------------------------------------------------------------------------------
 Classes:
 
