@@ -5,3 +5,4 @@ C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\My
 C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.csprojResolveAssemblyReference.cache
 C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.exe
 C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.pdb
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\NetworkCommsDotNet.dll

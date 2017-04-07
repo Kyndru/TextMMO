@@ -1,1 +1,6 @@
 C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\bin\Debug\TextMMO.Client.exe.config
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\bin\Debug\TextMMO.Client.exe
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\bin\Debug\TextMMO.Client.pdb
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\bin\Debug\NetworkCommsDotNet.dll
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\obj\Debug\TextMMO.Client.exe
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Client\obj\Debug\TextMMO.Client.pdb
