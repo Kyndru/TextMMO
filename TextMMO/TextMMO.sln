@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMMO", "TextMMO\TextMMO.csproj", "{C0587360-4900-420D-9808-EBDC1028611F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMMO.Client", "TextMMO.Client\TextMMO.Client.csproj", "{470E9073-493F-47A6-A348-E1F065FF07E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextMMO.Server", "TextMMO.Server\TextMMO.Server.csproj", "{F346EBD0-AA7C-42BD-B0F4-934F4D3BF953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0587360-4900-420D-9808-EBDC1028611F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0587360-4900-420D-9808-EBDC1028611F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0587360-4900-420D-9808-EBDC1028611F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0587360-4900-420D-9808-EBDC1028611F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470E9073-493F-47A6-A348-E1F065FF07E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470E9073-493F-47A6-A348-E1F065FF07E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470E9073-493F-47A6-A348-E1F065FF07E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470E9073-493F-47A6-A348-E1F065FF07E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F346EBD0-AA7C-42BD-B0F4-934F4D3BF953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F346EBD0-AA7C-42BD-B0F4-934F4D3BF953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F346EBD0-AA7C-42BD-B0F4-934F4D3BF953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F346EBD0-AA7C-42BD-B0F4-934F4D3BF953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

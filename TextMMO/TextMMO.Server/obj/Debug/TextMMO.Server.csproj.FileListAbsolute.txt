@@ -1,1 +1,7 @@
 C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\TextMMO.Server.exe.config
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\TextMMO.Server.exe
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\TextMMO.Server.pdb
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\bin\Debug\MySql.Data.dll
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.csprojResolveAssemblyReference.cache
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.exe
+C:\Users\lschneider\Documents\GitHub\TextMMO\TextMMO\TextMMO.Server\obj\Debug\TextMMO.Server.pdb
